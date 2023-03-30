@@ -16,6 +16,8 @@
 		162BD0DA29D260EE006D93B4 /* appFinalControUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BD0D929D260EE006D93B4 /* appFinalControUITestsLaunchTests.swift */; };
 		162BD0E729D26151006D93B4 /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BD0E629D26151006D93B4 /* splash.swift */; };
 		162BD0EB29D26A76006D93B4 /* mainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162BD0EA29D26A76006D93B4 /* mainScreen.swift */; };
+		23084E6F29D5438100A40F7B /* buscar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23084E6E29D5438100A40F7B /* buscar.swift */; };
+		23084E7429D543BD00A40F7B /* agregar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23084E7329D543BD00A40F7B /* agregar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		162BD0D929D260EE006D93B4 /* appFinalControUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appFinalControUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		162BD0E629D26151006D93B4 /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
 		162BD0EA29D26A76006D93B4 /* mainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreen.swift; sourceTree = "<group>"; };
+		23084E6E29D5438100A40F7B /* buscar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buscar.swift; sourceTree = "<group>"; };
+		23084E7329D543BD00A40F7B /* agregar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = agregar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				162BD0BC29D260EC006D93B4 /* appFinalControApp.swift */,
 				162BD0BE29D260EC006D93B4 /* ContentView.swift */,
 				162BD0EA29D26A76006D93B4 /* mainScreen.swift */,
+				23084E7329D543BD00A40F7B /* agregar.swift */,
+				23084E6E29D5438100A40F7B /* buscar.swift */,
 				162BD0E629D26151006D93B4 /* splash.swift */,
 				162BD0C029D260EE006D93B4 /* Assets.xcassets */,
 				162BD0C229D260EE006D93B4 /* Preview Content */,
@@ -264,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				162BD0EB29D26A76006D93B4 /* mainScreen.swift in Sources */,
+				23084E7429D543BD00A40F7B /* agregar.swift in Sources */,
+				23084E6F29D5438100A40F7B /* buscar.swift in Sources */,
 				162BD0BF29D260EC006D93B4 /* ContentView.swift in Sources */,
 				162BD0BD29D260EC006D93B4 /* appFinalControApp.swift in Sources */,
 				162BD0E729D26151006D93B4 /* splash.swift in Sources */,

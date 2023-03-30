@@ -2,7 +2,6 @@
 //  appFinalControApp.swift
 //  appFinalContro
 //
-//  Created by ivan mendoza baca on 27/03/23.
 //
 
 import SwiftUI

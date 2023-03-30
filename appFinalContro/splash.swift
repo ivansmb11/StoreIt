@@ -1,31 +1,30 @@
-//
-//  splash.swift
-//  appFinalContro
-//
-//  Created by ivan mendoza baca on 27/03/23.
-//
 
 import SwiftUI
 
 struct splash: View {
-    @State private var isActive : Bool = false
-    @State private var size = 0.8
+    @State private var isActive = false
+    @State private var size: CGFloat = 0.8
     @State private var opacity = 0.5
     
     var body: some View {
-        if isActive {
-            ContentView()
-        } else {
+        ZStack {
+            Image("imagen_almacen")
+                .resizable()
+                .scaledToFill()
+                .ignoresSafeArea()
+                .opacity(0.6)
             VStack {
+                Spacer()
                 VStack {
-                    Image(systemName: "")
-                        .font(.system(size: 80))
-                        .foregroundColor(.red)
                     Text("Store It")
-                        .font(.system(size: 30))
+                        .bold()
+                        .foregroundColor(.black)
+                        .font(.system(size: 50))
                     Text("V 1.0")
                         .italic()
-                        .foregroundColor(.red)
+                        .bold()
+                        .foregroundColor(.blue)
+                        .font(.system(size: 30))
                 }
                 .scaleEffect(size)
                 .opacity(opacity)
@@ -35,17 +34,23 @@ struct splash: View {
                         self.opacity = 1.00
                     }
                 }
+                Spacer()
             }
-            .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                    withAnimation {
-                        self.isActive = true
-                    }
+        }
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+                withAnimation {
+                    self.isActive = true
                 }
             }
         }
+        .fullScreenCover(isPresented: $isActive, content: {
+            ContentView()
+        })
     }
 }
+
+
 
 struct splash_Previews: PreviewProvider {
     static var previews: some View {
