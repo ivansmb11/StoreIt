@@ -82,10 +82,8 @@ struct ResetPasswordView: View {
                 .cornerRadius(10)
                 .frame(maxWidth: .infinity)
                 
-                // Spacer to push icon to the bottom
                 Spacer()
                 
-                // Icon
                 Image(systemName: "cube.box")
                     .font(.system(size: 30))
                     .foregroundColor(.blue)

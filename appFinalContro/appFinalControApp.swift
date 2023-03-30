@@ -1,8 +1,3 @@
-//
-//  appFinalControApp.swift
-//  appFinalContro
-//
-//
 
 import SwiftUI
 

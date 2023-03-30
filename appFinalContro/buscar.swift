@@ -33,7 +33,6 @@ struct buscar: View {
                 }
                 
                 Button(action: {
-                    // código para buscar el artículo
                 }) {
                     Text("Buscar")
                         .foregroundColor(.blue)
